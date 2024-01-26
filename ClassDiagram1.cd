@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MovementAnimationParameterControl" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Animation\MovementAnimationParameterControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventHandler">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgA=</HashCode>
+      <FileName>Assets\Scripts\Events\EventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgMAAAQAYIJAABBBAARBAAAEQAAAAHAAAAFIAAAFAAA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingletonMonobehaviour&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Misc\SingleonMonobehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AocAAAQIYoIAABBBAARBAAAUQAAACHAIAAVIAAAFUEA=</HashCode>
+      <FileName>Assets\Scripts\Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Player.PlayerAnimationTest" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgcAAAAAYIIAABBBAARBAAAUQAAAAHAAAAVIAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerAnimationTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ToolEffect" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Direction" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAgAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="MovementDelegate" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAACQAAAAAAAAAAAAAAAAAAAIAPiHAQA=</HashCode>
+      <FileName>Assets\Scripts\Events\EventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

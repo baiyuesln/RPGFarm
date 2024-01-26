@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BoundsConfiner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground1
+    uniqueID: 2954745367
+    locked: 0
+  - name: Ground2
+    uniqueID: 3100394511
+    locked: 0
+  - name: Ground3
+    uniqueID: 2723981643
+    locked: 0
+  - name: GroundDecoration1
+    uniqueID: 729651905
+    locked: 0
+  - name: GroundDecoration2
+    uniqueID: 239353209
+    locked: 0
+  - name: Instances
+    uniqueID: 262509645
+    locked: 0
+  - name: Front1
+    uniqueID: 1709031853
+    locked: 0
+  - name: Front2
+    uniqueID: 124112685
+    locked: 0
+  - name: Collisions
+    uniqueID: 1680397389
+    locked: 0
