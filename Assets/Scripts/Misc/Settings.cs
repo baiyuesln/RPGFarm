@@ -9,9 +9,15 @@ public static class Settings
     public const float fadeInSeconds = 0.25f;
     public const float fadeOutSeconds = 0.35f;
     public const float targetAlpha = 0.45f;
+
     //Player 运动参数
     public const float runningSpeed = 5.333f;
     public const float walkingSpeed = 2.666f;
+
+    //仓库
+    public static int playerInitialInventoryCapacity = 24;
+    public static int playerMaximumInventoryCapacity = 48;
+
     //Player 动画参数
     public static int xInput;
     public static int yInput;

@@ -35,6 +35,8 @@ public class Player : SingletonMonobehaviour<Player>
     public bool idleLeft;
     public bool idleRight;
 
+    private Camera mainCamera;
+
     private Rigidbody2D rigidBody2D;
     #pragma warning disable 414
     private Direction playerDirection;
@@ -50,6 +52,8 @@ public class Player : SingletonMonobehaviour<Player>
         base.Awake();
 
         rigidBody2D = GetComponent<Rigidbody2D>();
+
+        mainCamera = Camera.main;
     }
 
     private void Update()
@@ -171,5 +175,10 @@ public class Player : SingletonMonobehaviour<Player>
         isPickingUp = false;
         isPickingDown = false;
         toolEffect = ToolEffect.none;
+    }
+
+    public Vector3 GetPlayerViewPortPosition()
+    {
+        return mainCamera.WorldToViewportPoint(transform.position);
     }
 }
